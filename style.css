@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #d98c13;
+  color: white;
+}
+
+.splash-page {
+  background: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.splash-page .btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #d98c13;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.auth-page {
+  padding: 20px;
+}
+
+.container {
+  max-width: 350px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.top-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.form-group i {
+  color: #d98c13;
+  margin-right: 10px;
+}
+
+.form-group input {
+  border: none;
+  flex: 1;
+  outline: none;
+  font-size: 16px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background: #a55f07;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.small-text {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.small-text a {
+  color: white;
+  text-decoration: underline;
+}
+
+.social-icons i {
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
